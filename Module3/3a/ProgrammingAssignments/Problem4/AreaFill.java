@@ -74,7 +74,7 @@ public class AreaFill {
                 fill(grid, row, col - 1, ch);
             }
         }      
-    }
+    } 
 
     public static void print(char[][] area){
         // *** Student task #3 ***
