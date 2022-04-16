@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JUnit Vintage" tests="20" skipped="0" failures="0" errors="0" time="0.024" hostname="zachBoudreaux" timestamp="2022-04-16T12:01:49">
+<properties>
+<property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+<property name="file.encoding" value="UTF-8"/>
+<property name="file.separator" value="/"/>
+<property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+<property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+<property name="java.class.path" value="../lib/junit-platform-console-standalone-1.8.2.jar"/>
+<property name="java.class.version" value="55.0"/>
+<property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+<property name="java.io.tmpdir" value="/tmp"/>
+<property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+<property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+<property name="java.runtime.version" value="11.0.11+9-Ubuntu-0ubuntu2.20.04"/>
+<property name="java.specification.name" value="Java Platform API Specification"/>
+<property name="java.specification.vendor" value="Oracle Corporation"/>
+<property name="java.specification.version" value="11"/>
+<property name="java.vendor" value="Ubuntu"/>
+<property name="java.vendor.url" value="https://ubuntu.com/"/>
+<property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+<property name="java.version" value="11.0.11"/>
+<property name="java.version.date" value="2021-04-20"/>
+<property name="java.vm.compressedOopsMode" value="Zero based"/>
+<property name="java.vm.info" value="mixed mode, sharing"/>
+<property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+<property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+<property name="java.vm.specification.version" value="11"/>
+<property name="java.vm.vendor" value="Ubuntu"/>
+<property name="java.vm.version" value="11.0.11+9-Ubuntu-0ubuntu2.20.04"/>
+<property name="jdk.debug" value="release"/>
+<property name="line.separator" value="
+"/>
+<property name="os.arch" value="amd64"/>
+<property name="os.name" value="Linux"/>
+<property name="os.version" value="5.4.72-microsoft-standard-WSL2"/>
+<property name="path.separator" value=":"/>
+<property name="sun.arch.data.model" value="64"/>
+<property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+<property name="sun.cpu.endian" value="little"/>
+<property name="sun.cpu.isalist" value=""/>
+<property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+<property name="sun.java.command" value="../lib/junit-platform-console-standalone-1.8.2.jar -cp . --select-class ZachBoudreauxTriangleTest --reports-dir=reports"/>
+<property name="sun.java.launcher" value="SUN_STANDARD"/>
+<property name="sun.jnu.encoding" value="UTF-8"/>
+<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+<property name="sun.os.patch.level" value="unknown"/>
+<property name="user.dir" value="/home/zach-boudreaux/github_repos/CSC-202-NOVA/Project1/JUnit_Testing/src"/>
+<property name="user.home" value="/home/zach-boudreaux"/>
+<property name="user.language" value="en"/>
+<property name="user.name" value="zach-boudreaux"/>
+<property name="user.timezone" value="America/New_York"/>
+</properties>
+<testcase name="test18" classname="ZachBoudreauxTriangleTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:ZachBoudreauxTriangleTest]/[test:test18(ZachBoudreauxTriangleTest)]
+display-name: test18
+]]></system-out>
+</testcase>
+<testcase name="test8" classname="ZachBoudreauxTriangleTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:ZachBoudreauxTriangleTest]/[test:test8(ZachBoudreauxTriangleTest)]
+display-name: test8
+]]></system-out>
+</testcase>
+<testcase name="test11" classname="ZachBoudreauxTriangleTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:ZachBoudreauxTriangleTest]/[test:test11(ZachBoudreauxTriangleTest)]
+display-name: test11
+]]></system-out>
+</testcase>
+<testcase name="test20" classname="ZachBoudreauxTriangleTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:ZachBoudreauxTriangleTest]/[test:test20(ZachBoudreauxTriangleTest)]
+display-name: test20
+]]></system-out>
+</testcase>
+<testcase name="test16" classname="ZachBoudreauxTriangleTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:ZachBoudreauxTriangleTest]/[test:test16(ZachBoudreauxTriangleTest)]
+display-name: test16
+]]></system-out>
+</testcase>
+<testcase name="test14" classname="ZachBoudreauxTriangleTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:ZachBoudreauxTriangleTest]/[test:test14(ZachBoudreauxTriangleTest)]
+display-name: test14
+]]></system-out>
+</testcase>
+<testcase name="test4" classname="ZachBoudreauxTriangleTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:ZachBoudreauxTriangleTest]/[test:test4(ZachBoudreauxTriangleTest)]
+display-name: test4
+]]></system-out>
+</testcase>
+<testcase name="test2" classname="ZachBoudreauxTriangleTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:ZachBoudreauxTriangleTest]/[test:test2(ZachBoudreauxTriangleTest)]
+display-name: test2
+]]></system-out>
+</testcase>
+<testcase name="test6" classname="ZachBoudreauxTriangleTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:ZachBoudreauxTriangleTest]/[test:test6(ZachBoudreauxTriangleTest)]
+display-name: test6
+]]></system-out>
+</testcase>
+<testcase name="test10" classname="ZachBoudreauxTriangleTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:ZachBoudreauxTriangleTest]/[test:test10(ZachBoudreauxTriangleTest)]
+display-name: test10
+]]></system-out>
+</testcase>
+<testcase name="test17" classname="ZachBoudreauxTriangleTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:ZachBoudreauxTriangleTest]/[test:test17(ZachBoudreauxTriangleTest)]
+display-name: test17
+]]></system-out>
+</testcase>
+<testcase name="test19" classname="ZachBoudreauxTriangleTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:ZachBoudreauxTriangleTest]/[test:test19(ZachBoudreauxTriangleTest)]
+display-name: test19
+]]></system-out>
+</testcase>
+<testcase name="test12" classname="ZachBoudreauxTriangleTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:ZachBoudreauxTriangleTest]/[test:test12(ZachBoudreauxTriangleTest)]
+display-name: test12
+]]></system-out>
+</testcase>
+<testcase name="test13" classname="ZachBoudreauxTriangleTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:ZachBoudreauxTriangleTest]/[test:test13(ZachBoudreauxTriangleTest)]
+display-name: test13
+]]></system-out>
+</testcase>
+<testcase name="test15" classname="ZachBoudreauxTriangleTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:ZachBoudreauxTriangleTest]/[test:test15(ZachBoudreauxTriangleTest)]
+display-name: test15
+]]></system-out>
+</testcase>
+<testcase name="test1" classname="ZachBoudreauxTriangleTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:ZachBoudreauxTriangleTest]/[test:test1(ZachBoudreauxTriangleTest)]
+display-name: test1
+]]></system-out>
+</testcase>
+<testcase name="test3" classname="ZachBoudreauxTriangleTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:ZachBoudreauxTriangleTest]/[test:test3(ZachBoudreauxTriangleTest)]
+display-name: test3
+]]></system-out>
+</testcase>
+<testcase name="test5" classname="ZachBoudreauxTriangleTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:ZachBoudreauxTriangleTest]/[test:test5(ZachBoudreauxTriangleTest)]
+display-name: test5
+]]></system-out>
+</testcase>
+<testcase name="test7" classname="ZachBoudreauxTriangleTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:ZachBoudreauxTriangleTest]/[test:test7(ZachBoudreauxTriangleTest)]
+display-name: test7
+]]></system-out>
+</testcase>
+<testcase name="test9" classname="ZachBoudreauxTriangleTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:ZachBoudreauxTriangleTest]/[test:test9(ZachBoudreauxTriangleTest)]
+display-name: test9
+]]></system-out>
+</testcase>
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]
+display-name: JUnit Vintage
+]]></system-out>
+</testsuite>
