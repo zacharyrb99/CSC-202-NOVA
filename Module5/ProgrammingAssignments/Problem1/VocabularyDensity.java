@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
+import Problem2.LLNode;
+
 public class VocabularyDensity {
     public static void main(String[] args) {
         try {

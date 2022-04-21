@@ -1,5 +1,7 @@
 package Problem1;
 
+import Problem2.LLNode;
+
 public class LinkedCollectionT<T> implements CollectionInterface<T> {
     private LLNode<T> head;
     
@@ -153,19 +155,19 @@ public class LinkedCollectionT<T> implements CollectionInterface<T> {
         }
     }
 
-   public void print() {
-      String res = "";
-      LLNode<T> tmp = head;
+    public void print() {
+        String res = "";
+        LLNode<T> tmp = head;
 
-      while(tmp != null) {
-         res += tmp.getData().toString()+", ";
-         tmp = tmp.getNext();
-      }
+        while(tmp != null) {
+            res += tmp.getData().toString()+", ";
+            tmp = tmp.getNext();
+        }
 
-      if(res.length() > 0) {
-         res = res.substring(0, res.length() - 2);
-      }
+        if(res.length() > 0) {
+            res = res.substring(0, res.length() - 2);
+        }
 
-      System.out.println("["+res+"]");
-   }
+        System.out.println("["+res+"]");
+    }
 }
