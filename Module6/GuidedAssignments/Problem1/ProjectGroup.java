@@ -11,6 +11,7 @@ public class ProjectGroup implements Iterable<Student>{
 	 */
 	public ProjectGroup() {
 		//*** Task #1: add code here for the constructor
+		this.list = new LinkedList<Student>(); 
 	}
 	
 	/**
@@ -20,6 +21,7 @@ public class ProjectGroup implements Iterable<Student>{
 	 */
 	public void addStudent(Student student) {
 		//*** Task #2: create the body of this method
+		list.add(student);
     }
 
 	/**
@@ -29,6 +31,13 @@ public class ProjectGroup implements Iterable<Student>{
 	 */
 	public Student find(String studentID) {	
 		//*** Task #3: fill in the body of method find
+		Student studentToReturn = null;
+
+		for (Student s : list) {
+			if (s.getStudentID() == studentID) studentToReturn = s;
+		}
+
+		return studentToReturn;
     }
 
 	/**
@@ -40,6 +49,11 @@ public class ProjectGroup implements Iterable<Student>{
 	 */
 	public void addStudentAfter(Student target, Student newStudent) {
 		//*** Task #4: ill in the body of method addStudentAfter
+		if (target == null || newStudent == null) return;
+		if (find(target.getStudentID()) == null) return;
+
+		int idx = list.indexOf(target);
+		list.add(idx + 1, newStudent);
     }
 
 	/**
@@ -51,6 +65,12 @@ public class ProjectGroup implements Iterable<Student>{
 	 */
 	public void replace(Student target, Student newStudent) {
 		//*** Task #5: fill in the body of method replace
+		if (target == null || newStudent == null) return;
+		if (find(target.getStudentID()) == null) return;
+
+		int idx = list.indexOf(target);
+		list.remove(idx);
+		list.add(idx, newStudent);		
     }
 
 	/**
@@ -60,6 +80,10 @@ public class ProjectGroup implements Iterable<Student>{
 	 */
 	public String toString() {
         //*** Task #6: fill in the body of the method toString()
+		String str = "";
+		for (Student s : list) str += (s + "\n");
+
+		return str;
     }
 
 	/**
