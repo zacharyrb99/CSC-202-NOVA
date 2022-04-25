@@ -1,10 +1,5 @@
 public class NonzeroListDriver {
     public static void main(String[] args){
-        // NonzeroList list = new NonzeroList(5);
-        // list.add(5);
-        // list.print();
-        // System.out.println(list.isEmpty());
-
         NonzeroList list=new NonzeroList(5);
         System.out.println("Before adding any data, call list.isEmpty() retrurns: " + list.isEmpty() + " list.size() returns: " + list.size());
         list.add(2);
